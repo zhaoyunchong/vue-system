@@ -154,7 +154,8 @@ export default {
     }
   },
   created() {
-    this.getTableData()
+    this.getTableData();
+	console.log('hello world');
   }
 }
 </script>
